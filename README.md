@@ -1,3 +1,3 @@
 #IDE Extensions
 
-* A repository with several extensions for the IDE I use
+* A repository with several extensions for the IDEs I use
