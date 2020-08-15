@@ -1,0 +1,27 @@
+{
+
+	"ReactJS Functional Component": {
+		"prefix": "rfc",
+		"scope": "javascript",
+		"body": [
+			"import React from \"react\"",
+			"",
+			"import \"./styles.css\"",
+			"",
+			"const ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/} = () => {",
+			"\treturn(",
+			"\t\t<div id=\"${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}Container\">",
+			"\t\t",
+			"\t\t\t$1",
+			"\t\t",
+			"\t\t</div>",
+			"\t)",
+			"}",
+			"",
+			"export default ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}",
+			""
+
+		],
+		"description": "Create a basic ReactJS functional component"
+	},
+}

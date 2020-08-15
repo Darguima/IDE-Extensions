@@ -1,65 +1,47 @@
-# darguima-snippets README
+# Darguima Snippets
 
-This is the README for your extension "darguima-snippets". After writing up a brief description, we recommend including the following sections.
+Includes snippets for JS, JSX, TS, TPX, CSS;
 
-## Features
+## JS and JSX
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+|    prefix    |     description                                  |
+|--------------|--------------------------------------------------|
+|        `rfc` | Create a basic ReactJS functional component      |
 
-For example if there is an image subfolder under your extension project workspace:
 
-\!\[feature X\]\(images/feature-x.png\)
+## TS and TSX
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+|    prefix    |     description                                  |
+|--------------|--------------------------------------------------|
+|        `rfc` | Create a basic ReactJS functional component      |
 
-## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## CSS
 
-## Extension Settings
+|    prefix    |     description                                  |
+|--------------|--------------------------------------------------|
+|        `rfc` | Create a initial CSS file to a basic RFC         |
+|        `ncs` | Create a new CSS object                          |
+|       `nfcs` | Create a new CSS object with flex properties     |
+|        `fps` | Add flex properties to the CSS object            |
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
-For example:
+## Installation
 
-This extension contributes the following settings:
+To install these snippets follow the next steps.
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+1. Go to the root folder of the extension (IDE-Extensions/VSCode/darguima-snippets/)
 
-## Known Issues
+2. > npm install -g vsce
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+3. > vsce package
 
-## Release Notes
+4. > code --install-extension darguima-snippets-${snippet version}.vsix
 
-Users appreciate release notes as you update your extension.
+### Notes
 
-### 1.0.0
+* Make sure that Node JS is already installed (to use npm);
 
-Initial release of ...
+* Change $ {snippet version} to the current version of the snippet (only copy the file name);
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+* If you want you can use the package that was previously included in the folder

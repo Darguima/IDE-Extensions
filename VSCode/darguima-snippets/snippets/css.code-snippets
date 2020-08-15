@@ -1,0 +1,61 @@
+{
+	"ReactJS Functional Component": {
+		"prefix": "rfc",
+		"body": [
+			"#${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}Container {",
+			"\t",
+			"\t$1;",
+			"\t",
+			"}",
+			""
+
+		],
+		"description": "Create a initial CSS file to a basic RFC"
+	},
+
+	"New Component Style": {
+		"prefix": "ncs",
+		"body": [
+			"${1:#div} {",
+			"\t",
+			"\t$2;",
+			"\t",
+			"}",
+			""
+
+		],
+		"description": "Create a new CSS object"
+	},
+
+	"New Flex Component Style": {
+		"prefix": "nfcs",
+		"body": [
+			"${1:#div} {",
+			"\tdisplay: flex;",
+			"\tflex-direction: row;",
+			"\talign-items: center;",
+			"\tjustify-content: center;",
+			"\t",
+			"\t$2;",
+			"\t",
+			"}",
+			""
+
+		],
+		"description": "Create a new CSS object with flex properties"
+	},
+
+	"Flex Properties Style": {
+		"prefix": "fps",
+		"body": [
+			"display: flex;",
+			"flex-direction: row;",
+			"align-items: center;",
+			"justify-content: center;",
+			"",
+
+		],
+		"description": "Add flex properties to the CSS object"
+	},
+
+}

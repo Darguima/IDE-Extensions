@@ -1,11 +1,15 @@
 {
     "name": "darguima-snippets",
     "displayName": "Darguima Snippets",
-    "description": "My, Darguima (https://github.com/Darguima), snippets!",
+    "description": "Snippets for I use when I'm coding.",
     "version": "0.0.1",
 
     "publisher": "Darguima",
-    "repository": "https://github.com/Darguima/IDE-Extensions",
+    "icon": "images/snippet-logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Darguima/IDE-Extensions"
+    },
 
     "engines": {
         "vscode": "^1.47.0"
@@ -17,27 +21,27 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/javascript.code-snippets"
             },
 
             {
                 "language": "javascriptreact",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/javascript.code-snippets"
             },
 
             {
                 "language": "typescript",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/typescript.code-snippets"
             },
 
             {
                 "language": "typescriptreact",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/typescript.code-snippets"
             },
 
             {
                 "language": "css",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/css.code-snippets"
             }
 		]
     }
