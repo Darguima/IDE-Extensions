@@ -1,0 +1,29 @@
+{
+    "name": "darguima-theme",
+    "displayName": "Darguima Theme",
+    "description": "Theme for I use when I'm coding.",
+    "version": "0.0.1",
+
+    "publisher": "Darguima",
+    "icon": "images/theme-logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Darguima/IDE-Extensions"
+    },
+
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Darguima Theme",
+                "uiTheme": "hc-black",
+                "path": "./themes/Darguima Theme-color-theme.json"
+            }
+        ]
+    }
+}
