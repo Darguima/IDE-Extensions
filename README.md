@@ -57,7 +57,7 @@ To install these snippets follow the next steps.
 
 ### Darguima Theme
 
-A high contrast theme to VS Code.
+A high contrast theme to VS Code based in Monokai Charcoal.
 
 #### Installation
 
