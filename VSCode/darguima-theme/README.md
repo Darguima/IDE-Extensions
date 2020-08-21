@@ -1,6 +1,6 @@
 # Darguima Theme
 
-A high contrast theme to VS Code based in Monokai Charcoal.
+A high contrast theme to VS Code based in Monokai Charcoal (gray).
 
 ## Installation
 

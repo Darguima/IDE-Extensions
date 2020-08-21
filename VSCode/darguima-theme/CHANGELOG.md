@@ -9,3 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1] - 2020-08-17
 ### Added
 - The basic files to the extension;
+
+## [1.0.0] - 2020-08-21
+### Added
+- Monokai Charcoal theme (gray);
+- Changes on the Monokai Charcoal theme (gray);
