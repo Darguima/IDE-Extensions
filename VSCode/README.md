@@ -2,6 +2,14 @@
 
 At the moment, VS Code is my favorite IDE, so I started this project with him
 
+## settings.json
+
+In this file are my VS Code settings.
+
+To modify the VS Code settings press: `Ctr + LShift + P` and select `Preferences: Open Settings (JSON)`
+
+Copy the content of the file in this repository to the file that will open.
+
 ## Darguima Snippets
 
 Includes snippets for JS, JSX, TS, TPX, CSS;

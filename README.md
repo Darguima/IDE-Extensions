@@ -6,6 +6,14 @@
 
 At the moment, VS Code is my favorite IDE, so I started this project with him
 
+### settings.json
+
+In this file are my VS Code settings.
+
+To modify the VS Code settings press: `Ctr + LShift + P` and select `Preferences: Open Settings (JSON)`
+
+Copy the content of the file in this repository to the file that will open.
+
 ### Darguima Snippets
 
 Includes snippets for JS, JSX, TS, TPX, CSS;
@@ -79,3 +87,8 @@ To install this theme follow the next steps.
 
 * If you want you can use the package that was previously included in the folder
 
+## nodejsSetup.md
+
+* A markdown file with the steps to create a basic setup to create a server with node
+
+* Yes, I know that isn't a extension but I want put it on the Git Hub so I choose this repository

@@ -1,0 +1,26 @@
+{
+	"workbench.iconTheme": "material-icon-theme",
+	"window.zoomLevel": -1,
+
+	"emmet.excludeLanguages": [
+		"markdown"
+	],
+
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	
+	"editor.multiCursorModifier": "ctrlCmd",
+
+	"editor.tabSize": 2,
+	"editor.insertSpaces": true,
+
+	"workbench.colorTheme": "Darguima Theme",
+	"material-icon-theme.folders.associations": {
+		"migrations": "tools"
+	},
+
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	}
+}
