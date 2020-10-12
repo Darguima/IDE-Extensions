@@ -8,12 +8,10 @@
 			"",
 			"import \"./styles.css\"",
 			"",
-			"const ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/} = () => {",
+			"const ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/} = ({}) => {",
 			"\treturn(",
 			"\t\t<div id=\"${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}Container\">",
-			"\t\t",
 			"\t\t\t$1",
-			"\t\t",
 			"\t\t</div>",
 			"\t)",
 			"}",
@@ -22,6 +20,34 @@
 			""
 
 		],
-		"description": "Create a basic ReactJS functional component"
+		"description": "Create a basic ReactJS function component"
+	},
+
+	"ReactNative Functional Component": {
+		"prefix": "rnfc",
+		"scope": "javascript",
+		"body": [
+			"import React from \"react\"",
+			"import { Text, View, StyleSheet } from 'react-native';",
+			"",
+			"const ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/} = ({}) => {",
+			"\treturn(",
+			"\t\t<View style={styles.container}>",
+			"\t\t\t<Text>$1</Text>",
+			"\t\t</View>",
+			"\t)",
+			"}",
+			"",
+			"const styles = StyleSheet.create({",
+			"\tcontainer: {",
+			"\t\t$2",
+			"\t}",
+			"})",
+			"",
+			"export default ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}",
+			""
+
+		],
+		"description": "Create a basic ReactJS function component"
 	},
 }

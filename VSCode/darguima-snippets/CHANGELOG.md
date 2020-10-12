@@ -10,3 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - The basic files to the extension;
 - The snippets to JS, JSX, TS, TSX and CSS;
+
+## [0.0.2] - 2020-10-12
+### Added
+- Snippets to ReactNative basic function components to JS and TS

@@ -23,6 +23,7 @@ Includes snippets for JS, JSX, TS, TPX, CSS;
 |    prefix    |     description                                  |
 |--------------|--------------------------------------------------|
 |        `rfc` | Create a basic ReactJS functional component      |
+|       `rnfc` | Create a basic ReactNative functional component  |
 
 
 #### TS and TSX
@@ -30,6 +31,7 @@ Includes snippets for JS, JSX, TS, TPX, CSS;
 |    prefix    |     description                                  |
 |--------------|--------------------------------------------------|
 |        `rfc` | Create a basic ReactJS functional component      |
+|       `rnfc` | Create a basic ReactNative functional component  |
 
 
 #### CSS
