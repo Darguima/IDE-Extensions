@@ -18,23 +18,25 @@ Copy the content of the file in this repository to the file that will open.
 
 Includes snippets for JS, JSX, TS, TPX, CSS;
 
-#### JS and JSX
+## JS and JSX
 
-|    prefix    |     description                                  |
-|--------------|--------------------------------------------------|
-|        `rfc` | Create a basic ReactJS functional component      |
-|       `rnfc` | Create a basic ReactNative functional component  |
-
-
-#### TS and TSX
-
-|    prefix    |     description                                  |
-|--------------|--------------------------------------------------|
-|        `rfc` | Create a basic ReactJS functional component      |
-|       `rnfc` | Create a basic ReactNative functional component  |
+|    prefix    |     description                                                                                              |
+|--------------|--------------------------------------------------------------------------------------------------------------|
+|        `rfc` | Create a basic React JS functional component                                                                 |
+|       `rnfc` | Create a basic React Native functional component                                                             |
+|       `rnp`  | Create a basic React Native function component prepared to use React Native Paper Theme's Colors on styles.  |
 
 
-#### CSS
+## TS and TSX
+
+|    prefix    |     description                                                                                              |
+|--------------|--------------------------------------------------------------------------------------------------------------|
+|        `rfc` | Create a basic React JS functional component                                                                 |
+|       `rnfc` | Create a basic React Native functional component                                                             |
+|       `rnp`  | Create a basic React Native function component prepared to use React Native Paper Theme's Colors on styles.  |
+
+
+## CSS
 
 |    prefix    |     description                                  |
 |--------------|--------------------------------------------------|

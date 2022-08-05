@@ -1,5 +1,4 @@
 {
-
 	"ReactJS Functional Component": {
 		"prefix": "rfc",
 		"scope": "javascript",
@@ -8,15 +7,13 @@
 			"",
 			"import \"./styles.css\"",
 			"",
-			"const ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}:React.FC = ({}) => {",
+			"const ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}$0:React.FC = () => {",
 			"\treturn(",
-			"\t\t<div id=\"${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}Container\">",
-			"\t\t\t$1",
+			"\t\t<div id=\"${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}$0Container\">",
 			"\t\t</div>",
 			"\t)",
 			"}",
-			"",
-			"export default ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}",
+			"export default ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}$0",
 			""
 
 		],
@@ -28,26 +25,54 @@
 		"scope": "javascript",
 		"body": [
 			"import React from \"react\"",
-			"import { Text, View, StyleSheet } from 'react-native';",
+			"import { View, StyleSheet } from 'react-native';",
 			"",
-			"const ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}:React.FC = ({}) => {",
+			"const ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}$0:React.FC = () => {",
 			"\treturn(",
 			"\t\t<View style={styles.container}>",
-			"\t\t\t<Text>$1</Text>",
 			"\t\t</View>",
 			"\t)",
 			"}",
 			"",
 			"const styles = StyleSheet.create({",
 			"\tcontainer: {",
-			"\t\t$2",
 			"\t}",
 			"})",
 			"",
-			"export default ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}",
+			"export default ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}$0",
 			""
 
 		],
-		"description": "Create a basic ReactJS function component"
+		"description": "Create a basic React Native function component"
+	},
+
+	"React Native Paper Functional Component": {
+		"prefix": "rnp",
+		"scope": "javascript",
+		"body": [
+			"import React from \"react\"",
+			"import { View, StyleSheet } from 'react-native';",
+			"",
+			"import { useTheme } from 'react-native-paper'",
+			"",
+			"const ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}$0:React.FC = () => {",
+			"\tconst styles = makeStyles(useTheme().colors)",
+			"",
+			"\treturn(",
+			"\t\t<View style={styles.container}>",
+			"\t\t</View>",
+			"\t)",
+			"}",
+			"",
+			"const makeStyles = (colors :ReactNativePaper.ThemeColors) => StyleSheet.create({",
+			"\tcontainer: {",
+			"\t}",
+			"})",
+			"",
+			"export default ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}$0",
+			""
+
+		],
+		"description": "Create a basic React Native function component prepared to use React Native Paper Theme's Colors on styles."
 	},
 }
